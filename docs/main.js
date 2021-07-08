@@ -56,7 +56,7 @@ const obtenerRecetas= async()=>{
   if (!ingrediente || !categoria){
     
 
- 
+    selectHtml.style.display="none";
     error.innerHTML=`<p class="error" >Te faltan campos por rellenar</p>`;
  
   } else {

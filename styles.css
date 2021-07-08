@@ -1,0 +1,227 @@
+body{
+    /*Eliminamos los estilos que vienen por defecto */
+    margin: 0px;
+    padding: 0px;
+    /*Añadimos la fuente principal*/
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(253, 185, 158);
+    
+   
+    
+}
+
+
+
+/******************Estilos del body***********************/
+
+/*Añadimos los estilos al header para que sea responsive
+Le agregamos una imagen de fondo y la colocamos con las distintas propiedades
+Le añadimos una altura al header */
+header{
+    display: flex;
+    margin-top: 0px;
+    padding: 0px;
+    background-image: url("./Imagenes/smoothies-2253423_1280.jpg");
+    background-position:center;
+    justify-content: center;
+    background-repeat: repeat;
+    background-attachment: cover;
+    height: 250px;
+    box-shadow: 5px 2px 5px rgb(243, 207, 193);;
+    
+   
+    
+    /*Alineamos el contenido en el centro*/
+  
+}
+
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+  
+    
+    
+}
+
+/*Damos color al título y le añadimos sombras para que resalte soble el fondo*/
+
+h1{
+    color:rgb(161, 230, 93);
+    text-shadow: 3px 3px 5px  rgb(0, 0, 0);
+    
+    
+}
+
+/***************Estilos del body*****************/
+
+.container-body{
+
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+     align-items: center;
+     align-content: center;
+     justify-content: space-evenly;
+   
+}
+
+/*Estilos del h2*/
+
+.h2{
+
+    color:rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px  rgb(0, 0, 0);
+   
+}
+
+#mostrarErrores{
+display: flex;
+flex-direction: column;
+    
+}
+
+/*Estilos del buscador*/
+
+.container-form{
+    display: flex;
+    width:60%;
+    align-items: center;
+    justify-content: center;
+  
+}
+form{
+     
+    
+    
+    
+   
+    
+    
+    border-radius: 4%;
+}
+
+.inputs{
+    border:none;
+    width: 300px;
+    border-radius: 2px ;
+    outline: none;
+    background-color: rgb(247, 248, 247);
+    border:0px;
+    
+}
+
+#boton{
+    border:none;
+    width: 300px;
+    border-radius: 2px ;
+    outline: none;
+    background-color: rgb(247, 248, 247);
+    border:0px;
+    cursor:pointer;
+    
+}
+
+
+
+
+#boton:hover, #boton-modal:hover{
+
+    background-color:rgb(238, 199, 184);
+   
+}
+
+
+
+.error{
+    color:rgb(207, 22, 22);
+}
+
+
+.listaBebidas{
+    display:flex;
+    flex-direction: column;
+    width:60vw;
+}
+
+
+#modalReceta{
+    position:fixed;
+    z-index: 1000;
+    background-color:rgb(243, 148, 111);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:1500px;
+    top:0;
+    left:0;
+    display:none;
+
+    justify-content: center;
+    
+}
+#imagen{
+     
+    width:150px;
+    
+   height:200px;
+   margin-left: 5%;
+
+}
+.imagen{
+    margin-bottom: 5px;
+}
+
+.modalContent{
+   
+    display:flex;
+   
+    flex-flow: column wrap;
+    align-content: center;
+    
+    
+    
+    
+   
+}
+#divs{
+    height:250px;
+}
+
+h3{
+    color:rgb(240, 240, 240);
+    text-shadow: 0px 0px 5px  rgb(0, 0, 0);
+}
+
+#ingredientes{
+    color:rgb(240, 240, 240);
+    text-shadow: 0px 0px 5px  rgb(0, 0, 0);
+}
+
+
+#boton-modal{
+
+cursor: pointer;
+border:none;
+
+
+}
+
+.subir{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border-radius: 2px;
+   padding-left:20px;
+   padding-right:20px;
+   padding-top:1px;
+   padding-bottom: 2px;
+
+    font-size:12px;
+    color:#000;
+    text-decoration: none;
+    background-color: rgb(247, 248, 247);
+    
+    margin-left: 20px;
+
+}

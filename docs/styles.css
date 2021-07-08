@@ -24,7 +24,7 @@ header{
     background-image: url("https://s.gravatar.com/avatar/ea62ec54d6dcf3c8b25a5ecfb8d8a803?s=80");
     background-position:center;
     justify-content: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: cover;
     height: 250px;
     box-shadow: 5px 2px 5px rgb(243, 207, 193);;

@@ -163,17 +163,15 @@ form{
 }
 #imagen{
      
-    width:150px;
     
-   height:200px;
    margin-left: 5%;
 
 }
 .imagen{
     margin-bottom: 5px;
-    width:150px;
+    width:20%
     
-   height:200px;
+   height:auto;
     
 }
 

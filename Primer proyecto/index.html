@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas de bebidas</title>
+    <!--Importamos la hoja de estilos css-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Importamos las fuentes que vamos a utilizar-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap" rel="stylesheet">
+
+</head>
+<header>
+    <div class="container"> 
+        <div class="content"><h1>Buscador de recetas de bebidas</h1>
+            <p id="volver"></p>
+    </div>
+   
+</header>
+<main>
+    <div id="modalReceta" >
+        <div class="modalContent">
+            <h3 id="tituloReceta"></h3>
+            
+        
+            <p id="instruccionesReceta"></p>
+            <h3>Ingredientes</h3>
+            <ul id="ingredientesReceta">
+                <li id="ingredientes"></li>
+            </ul>
+            <img id="imagen"  src=""></img><br>
+            <button id="boton-modal" value="cerrar" onclick="cerrarModal()">Cerrar</button>
+            
+           
+            
+          
+        </div>
+        <div id="divs"></div>
+       
+
+    </div>
+    
+    
+    <section class="container-body">
+   
+         <h2 class="h2">Encuentra aquí las mejores recetas</h2>
+   
+    <div class="container-form">
+             <form action="">
+                <input class="inputs" type="text" id="nombre" placeholder="Introduce un ingrediente"><br>
+                <select class="inputs"  id="categorias"> 
+                   
+                
+                </select><br>
+                    <input type="button" value="Obtener recetas" id="boton" onclick="obtenerRecetas()"/>
+               
+                    
+             </form>
+             <div id="mostrarErrores"></div>
+         </div>
+         <div id="divListadoRecetas"></div>
+    
+    </section>
+   
+    
+   
+</main>
+
+<footer></footer>
+
+<!--Cargamos axios para hacer peticiones ajax-->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<!--Cargamos el script-->
+<script src="main.js"></script>
+<body>
+    
+</body>
+</html>

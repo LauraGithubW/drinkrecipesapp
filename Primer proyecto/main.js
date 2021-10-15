@@ -76,7 +76,7 @@ response.data.drinks.map(drink=>{
 
     listadoHtml+= `<div class="listaBebidas"> 
     <h2 class="h2"> ${drink.strDrink}</h2>
-    <img  class="imagen" src="${drink.strDrinkThumb}" alt="${drink.strDrink}"/>
+    <img width="250px" height="auto" class="imagen" src="${drink.strDrinkThumb}" alt="${drink.strDrink}"/>
     <div>
     <button type="button" id="boton" onclick="verReceta(${drink.idDrink})">Ver receta
     </button>

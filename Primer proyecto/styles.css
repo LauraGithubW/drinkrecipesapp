@@ -161,11 +161,11 @@ form{
     justify-content: center;
     
 }
-.imagen{
+#imagen{
      
-    width:250px;
+    width:150px;
     
-   height:300px;
+   height:200px;
    margin-left: 5%;
 
 }
